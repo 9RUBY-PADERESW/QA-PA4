@@ -1,0 +1,86 @@
+/* general design */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* navbar */
+.navbar {
+    padding: 15px;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+/* hero section */
+.hero {
+    background-color: #101f3c;
+    color: white;
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 17px;
+    color: #d1d5db;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* services section */
+.services {
+    background-color: #eaf2ff;
+}
+
+.services h2 {
+    color: #101f3c;
+}
+
+.card {
+    border: none;
+    border-top: 4px solid #0d6efd;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #0d6efd;
+}
+
+/* buttons */
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* footer */
+footer {
+    background-color: #212529;
+}
+
+/* phone screen */
+@media screen and (max-width: 576px) {
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
